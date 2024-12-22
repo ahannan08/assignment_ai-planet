@@ -1,0 +1,84 @@
+/* styles/AnswerDisplay.css */
+.qa-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-section {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .answer-section {
+    padding-top: 0.5rem;
+  }
+  
+  .qa-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .qa-avatar {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+  
+  .qa-text {
+    flex: 1;
+    margin: 0;
+    word-wrap: break-word;
+  }
+  
+  .question-text {
+    font-weight: bold;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media screen and (max-width: 768px) {
+    .question-form {
+      width: 95%;
+    }
+    
+    .question-input {
+      width: 70%;
+    }
+    
+    .qa-container {
+      width: 95%;
+      padding: 0.75rem;
+    }
+    
+    .qa-avatar {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .question-form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .question-input {
+      width: 100%;
+    }
+    
+    .question-button {
+      margin-left: 0;
+      width: 100%;
+    }
+    
+    .qa-container {
+      margin: 0.5rem auto;
+    }
+  }

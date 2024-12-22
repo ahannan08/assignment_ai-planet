@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #f5f5f5;
+    width: 100%;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+  }
